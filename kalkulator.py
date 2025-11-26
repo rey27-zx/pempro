@@ -20,3 +20,11 @@ num1 = float(input("Masukkan bilangan pertama: "))
 num2 = float(input("Masukkan bilangan kedua: "))
 if choice == '1':
     print(num1,"+",num2,"=", tambah(num1,num2))
+elif choice == '2':
+    print(num1,"-",num2,"=", kurang(num1,num2))
+elif choice == '3':
+    print(num1,"*",num2,"=", kali(num1,num2))
+elif choice == '4':
+    print(num1,"/",num2,"=", bagi(num1,num2))
+else:
+    print("Input salah")
